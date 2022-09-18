@@ -1,0 +1,8 @@
+[project]
+authors = ["Meliksah Gürtemel"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "nft_marketplace"
+
+[dependencies]
+nft_abi = { path = "../nft_abi" }

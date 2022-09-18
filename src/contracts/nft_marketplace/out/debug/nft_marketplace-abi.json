@@ -1,0 +1,156 @@
+{
+  "types": [
+    {
+      "typeId": 0,
+      "type": "()",
+      "components": [],
+      "typeParameters": null
+    },
+    {
+      "typeId": 1,
+      "type": "b256",
+      "components": null,
+      "typeParameters": null
+    },
+    {
+      "typeId": 2,
+      "type": "bool",
+      "components": null,
+      "typeParameters": null
+    },
+    {
+      "typeId": 3,
+      "type": "struct Address",
+      "components": [
+        {
+          "name": "value",
+          "type": 1,
+          "typeArguments": null
+        }
+      ],
+      "typeParameters": null
+    },
+    {
+      "typeId": 4,
+      "type": "struct ContractId",
+      "components": [
+        {
+          "name": "value",
+          "type": 1,
+          "typeArguments": null
+        }
+      ],
+      "typeParameters": null
+    },
+    {
+      "typeId": 5,
+      "type": "struct Item",
+      "components": [
+        {
+          "name": "item_id",
+          "type": 6,
+          "typeArguments": null
+        },
+        {
+          "name": "contract_Id",
+          "type": 4,
+          "typeArguments": null
+        },
+        {
+          "name": "token_id",
+          "type": 6,
+          "typeArguments": null
+        },
+        {
+          "name": "price",
+          "type": 6,
+          "typeArguments": null
+        },
+        {
+          "name": "seller",
+          "type": 3,
+          "typeArguments": null
+        },
+        {
+          "name": "sold",
+          "type": 2,
+          "typeArguments": null
+        }
+      ],
+      "typeParameters": null
+    },
+    {
+      "typeId": 6,
+      "type": "u64",
+      "components": null,
+      "typeParameters": null
+    }
+  ],
+  "functions": [
+    {
+      "inputs": [],
+      "name": "item_count",
+      "output": {
+        "name": "",
+        "type": 6,
+        "typeArguments": null
+      }
+    },
+    {
+      "inputs": [
+        {
+          "name": "id",
+          "type": 6,
+          "typeArguments": null
+        }
+      ],
+      "name": "items",
+      "output": {
+        "name": "",
+        "type": 5,
+        "typeArguments": null
+      }
+    },
+    {
+      "inputs": [
+        {
+          "name": "contract_Id",
+          "type": 4,
+          "typeArguments": null
+        },
+        {
+          "name": "token_id",
+          "type": 6,
+          "typeArguments": null
+        },
+        {
+          "name": "price",
+          "type": 6,
+          "typeArguments": null
+        }
+      ],
+      "name": "make_item",
+      "output": {
+        "name": "",
+        "type": 0,
+        "typeArguments": null
+      }
+    },
+    {
+      "inputs": [
+        {
+          "name": "item_id",
+          "type": 6,
+          "typeArguments": null
+        }
+      ],
+      "name": "purchase_item",
+      "output": {
+        "name": "",
+        "type": 0,
+        "typeArguments": null
+      }
+    }
+  ],
+  "loggedTypes": []
+}
