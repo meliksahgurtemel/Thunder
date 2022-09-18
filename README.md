@@ -1,7 +1,7 @@
-# NFT Marketplace on Fuel
+# Thunder
 
 ## Description
-This is the NFT Marketplace built on Fuel network
+Thunder is an NFT Marketplace built on Fuel
 
 ## Run
 `npm start`
